@@ -20,6 +20,8 @@ $ImageUrls += $result
 
 $ImageUrls = $ImageUrls.Substring(0, $ImageUrls.Length-1)
 
+$ImageUrls | Out-File -FilePath $path\ImageUrls.txt
+
 "Ezt másold be:
 
 "
